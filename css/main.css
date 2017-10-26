@@ -1,3 +1,185 @@
-/*
- * Estilos de tu proyecto
- */
+/* header*/
+
+body{
+  margin: 0;
+}
+
+.img_1{
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  
+}
+
+.contener{
+  width: 5%;
+  height: auto;
+  margin: 0 auto;
+  float: left;
+  margin-top: -20px;
+}
+
+.buttons{
+ padding: 10PX;
+}
+.button_1{
+  border: 1px solid #333447;
+  background: #333447;
+  border-radius: 4px;
+  height: 40px;
+  width: 90px;
+  color: #fff;
+  font-size: 20px;
+
+}
+  
+.button_2{
+  border: 1px solid #fff;
+  background: #333447;
+  border-radius: 4px;
+  height: 40px;
+  width: 90px;
+  color: #fff;
+  font-size: 20px;
+  
+}
+.background{
+  width: 100%;
+  height: 700px;
+  background-size: cover;
+  background-image:url(../assets/images/hero.gif); 
+}
+
+.first_list{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px;
+  display: inline-block;
+  font-size: 20px;
+  padding: 10px;
+  font-family: sans-serif;
+}
+
+.first_list a{
+  text-decoration: none;
+  color: #fff;
+
+}
+.option_1{
+  margin-left: 900px;
+  margin-top: 20%;
+  padding: 10px;
+}
+
+.option_2{
+  margin-top: 20%;
+  padding: 10px;
+}
+
+.option_3{
+  margin-top: 20%;
+  padding: 10px;
+}
+
+
+
+.main_contener{
+  background: #fff;
+  margin-top: 70px;
+  float: right;
+  width: 40%;
+  height: auto;
+  
+
+}
+
+.main_contener h3{
+  color: #352384;
+  font-size: 65px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.main_contener p{
+  color:#352384;
+  font-size: 20px;
+  text-align: center;
+  margin-top: -55px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.button_3{
+  background: #FF00BF;
+  border-radius: 4px;
+  height: 50px;
+  width: 220px;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  border: 1px solid #FF00BF;
+  margin-left: 20px;
+}
+
+.form_first{
+  color: #999494;
+ 
+}
+
+.form_first input{
+  width: 300PX;
+  padding: 10px;
+  margin: 9px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #000;
+  font-size: 15PX;
+ 
+}
+
+.section_one button{
+  background: #FF00BF;
+  color: white;
+  border-radius: 4px;
+  height: 40px;
+  width: 180px;
+  border: 1px solid #FF00BF;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.section_one a{
+  color: #979A9A;
+}
+
+
+
+.titulo{
+  color:#000;
+  font-size: 30px;
+  margin-top: 50px;
+  
+}
+
+.tiulo p{
+  color: #000;
+  font-size: 20px;
+}
+
+.img_3{
+  float: right;
+}
+
+.text{
+ color: #979A9A;
+}
+
+.text a{
+  color: #FF00BF;
+}
+
+.phrase{
+  font-size: 25px;
+}
+
