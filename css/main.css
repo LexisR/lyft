@@ -8,7 +8,6 @@ body{
   width: 100%;
   height: auto;
   margin: 0 auto;
-  
 }
 
 .contener{
@@ -20,8 +19,9 @@ body{
 }
 
 .buttons{
- padding: 10PX;
+  padding: 10PX;
 }
+
 .button_1{
   border: 1px solid #333447;
   background: #333447;
@@ -30,7 +30,6 @@ body{
   width: 90px;
   color: #fff;
   font-size: 20px;
-
 }
   
 .button_2{
@@ -41,11 +40,11 @@ body{
   width: 90px;
   color: #fff;
   font-size: 20px;
-  
 }
+
 .background{
   width: 100%;
-  height: 700px;
+  height: 900px;
   background-size: cover;
   background-image:url(../assets/images/hero.gif); 
 }
@@ -63,8 +62,8 @@ body{
 .first_list a{
   text-decoration: none;
   color: #fff;
-
 }
+
 .option_1{
   margin-left: 900px;
   margin-top: 20%;
@@ -81,16 +80,12 @@ body{
   padding: 10px;
 }
 
-
-
 .main_contener{
   background: #fff;
   margin-top: 70px;
   float: right;
   width: 40%;
-  height: auto;
-  
-
+  height: 540px;
 }
 
 .main_contener h3{
@@ -108,22 +103,8 @@ body{
   font-family: 'Montserrat', sans-serif;
 }
 
-.button_3{
-  background: #FF00BF;
-  border-radius: 4px;
-  height: 50px;
-  width: 220px;
-  color: #fff;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
-  font-size: 20px;
-  border: 1px solid #FF00BF;
-  margin-left: 20px;
-}
-
 .form_first{
   color: #999494;
- 
 }
 
 .form_first input{
@@ -135,7 +116,6 @@ body{
   border-right: none;
   border-bottom: 1px solid #000;
   font-size: 15PX;
- 
 }
 
 .section_one button{
@@ -153,13 +133,10 @@ body{
   color: #979A9A;
 }
 
-
-
 .titulo{
   color:#000;
   font-size: 30px;
   margin-top: 50px;
-  
 }
 
 .tiulo p{
@@ -173,13 +150,232 @@ body{
 
 .text{
  color: #979A9A;
+ margin-top: 20px;
 }
 
 .text a{
   color: #FF00BF;
 }
 
-.phrase{
+#phone{
   font-size: 25px;
 }
 
+.button_3{
+  background: #FF00BF;
+  border-radius: 4px;
+  height: 50px;
+  width: 220px;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  border: 1px solid #FF00BF;
+  margin-left: 20px;
+  margin-top:20px;
+}
+
+.phrase{
+  font-size: 25px;
+  color: #999494;
+  margin-left: 20px;
+}
+
+/* section one*/
+.section_one{
+  background: linear-gradient(to bottom, #691B84,#2b1e66);
+  height: 600px;
+}
+
+.img_3{
+  height: 100%;
+  width: 40%;
+  float: right;
+}
+
+.texto{
+  height: 100%;
+  float: left;
+  margin-left: 120px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.titulo{
+  color:#fff;
+  font-family: inherit;
+}
+
+/* secction two*/
+.section_two{
+  width: 100%;
+  height: 600px;
+}
+
+.bloque_1{
+  float: left;
+  width: 40%;
+  text-align: center;
+}
+
+.bloque_1 h4{
+  font-size: 15px;
+  margin-right: 50%;
+}
+
+.bloque_1 h3{
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: -3%
+}
+
+.bloque_1 p{
+  font-size: 20px;
+}
+
+/*section tree */
+.section_tree{
+  width: 100%;
+  height: 600px;
+}
+
+.bloque_2{
+  float: right;
+  width: 40%;
+  text-align: center;
+}
+
+.bloque_2 h4{
+  font-size: 15px;
+  margin-right: 52%;
+}
+
+.bloque_2 h3{
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: -20px;
+  margin-right: 50%;
+}
+
+.bloque_2 p{
+  font-size: 20px;
+  margin-right: 8%
+}
+
+/*section four*/
+.section_four{
+  width: 100%;
+  height: 600px;
+}
+
+.bloque_3{
+  float: left;
+  width: 40%;
+  text-align: center;
+}
+
+.bloque_3 h4{
+  font-size: 15px;
+  margin-right: 50%;
+}
+
+.bloque_3 h3{
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: -3%;
+}
+
+.bloque_3 p{
+  font-size: 20px;
+}
+
+/*section five*/
+.section_five{
+  width: 100%;
+  height: 400px;
+  background: #333447;
+}
+
+.footer ul{
+  color: #fff;
+}
+
+.footer li{
+  list-style: none;
+  padding: 15px 0px 5px;
+}
+
+.footer li a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer li a:hover{
+  color: #FF00BF;
+}
+
+.images{
+  display: inline-block;
+  width: 42%;
+  padding: 10px;
+}
+
+.apple{
+ width: 20%;
+ height: 3%;
+}
+
+.google{
+  width: 20%;
+  height: 3%;
+}
+
+.microsoft{
+  width: 20%;
+  height: 3%;
+}
+
+.list_one, .list_two, .list_tree{
+  display: inline-block;
+  width: 15%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.iconos {
+  text-align: center;
+  width: 100%;
+}
+
+.iconos *{
+  padding: 10px;
+}
+
+.tw{
+  height: 50px;
+  width: 50px;
+}
+
+.ins{
+  height: 50px;
+  width: 50px;
+}
+
+.face {
+  height: 50px;
+  width: 50px;
+}
+
+.terminos {
+  border-top: 1px solid #fff;
+  text-align: center;
+  width: 50%;
+  margin-left: 23%;
+  padding: 20px;
+}
+
+.terminos * {
+  padding: 15px;
+  color: #fff;
+  font-size: 20px;
+}
